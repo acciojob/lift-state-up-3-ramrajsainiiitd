@@ -1,1 +1,28 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 300px;
+    height: auto;
+    background-color: #67eb34;
+    
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    background-color: brown;
+}
 
+.child2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    background-color: yellow;
+    width: auto;
+    height: auto;
+}
+button{
+    width: 80px;
+    margin-bottom: 10px;
+}
